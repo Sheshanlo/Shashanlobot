@@ -7,7 +7,7 @@ from aiohttp import web
 import os
 
 # Получаем токен из переменных среды
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7715851506:AAGBHSajIKsivQ5tvZpnVjqsSX9WhqMxWv8")
 WEBHOOK_HOST = 'https://sheshanloassistant.onrender.com'
 WEBHOOK_PATH = f'/webhook'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"

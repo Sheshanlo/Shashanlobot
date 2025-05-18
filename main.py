@@ -16,7 +16,7 @@ async def send_welcome(message: Message):
 
 @dp.message_handler(commands=["help"])
 async def help_command(message: Message):
-    await message.reply("Команды:
+    await message.reply("Команды:\n/start — запуск\n/help — помощь")
 /start — запуск
 /help — помощь")
 
